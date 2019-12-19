@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chaitanya.mychat.SelectTest">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select category of test"
+        android:textSize="25sp"
+        android:id="@+id/tv1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aptitude"
+        android:id="@+id/aptitude"
+        android:layout_below="@id/tv1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resoning"
+        android:id="@+id/resoning"
+        android:layout_below="@id/aptitude"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Technical"
+        android:id="@+id/tech"
+
+        android:layout_below="@id/resoning"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Puzzle"
+        android:id="@+id/puz"
+        android:layout_below="@id/tech"/>
+
+</RelativeLayout>

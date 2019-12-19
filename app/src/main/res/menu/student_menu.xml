@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="View Profile" app:showAsAction="never"
+        android:id="@+id/profile1"/>
+
+    <item android:title="Upload Resume" app:showAsAction="never"
+        android:id="@+id/m_uploadResume"/>
+    <item android:title="Take Test" app:showAsAction="never"
+        android:id="@+id/m_test"/>
+    <item android:title="View Result" app:showAsAction="never"
+        android:id="@+id/m_ViewResult"/>
+    <item android:title="View Feedback" app:showAsAction="never"
+        android:id="@+id/m_feedback"/>
+
+    <item android:title="Sign Out" app:showAsAction="never"
+        android:id="@+id/menu_sign_out"/>
+</menu>

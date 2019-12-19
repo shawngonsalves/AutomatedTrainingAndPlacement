@@ -1,0 +1,79 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.0'
+    defaultConfig {
+        applicationId "com.example.chaitanya.mychat"
+        minSdkVersion 21
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    android {
+        aaptOptions {
+            cruncherEnabled = false
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    repositories {
+        maven { url 'https://maven.google.com' }
+    }
+    compile 'com.android.support:appcompat-v7:25.4.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+
+    compile 'com.github.hani-momanii:SuperNova-Emoji:1.0'
+    testCompile 'junit:junit:4.12'
+
+    compile 'com.android.support:design:25.4.0'
+
+
+    compile 'com.google.firebase:firebase-core:9.6.1'
+    compile 'com.google.firebase:firebase-database:9.6.1'
+    compile 'com.google.firebase:firebase-auth:9.6.1'
+    compile 'com.firebaseui:firebase-ui-auth:0.6.1'
+    compile 'com.google.firebase:firebase-storage:9.6.1'
+    compile 'com.google.firebase:firebase-messaging:9.6.1'
+    compile 'com.google.firebase:firebase-config:9.6.1'
+    compile 'com.firebase:firebase-jobdispatcher:0.8.5'
+
+    compile 'com.github.bumptech.glide:glide:3.6.1'
+
+//    compile files('libs/java-sdk-5.3.0-jar-with-dependencies.jar')
+//    compile files('libs/java-sdk-3.3.1-jar-with-dependencies.jar')
+
+    // compile 'com.jakewharton:butterknife:8.7.0'
+//    annotationProcessor 'com.jakewharton:butterknife-compiler:8.7.0'
+//    implementation 'com.ibm.watson.developer_cloud:java-sdk:3.9.1'
+//    implementation 'com.github.kittinunf.fuel:fuel-android:1.10.0'
+
+//    implementation 'com.ibm.watson.developer_cloud:java-sdk:3.9.1'
+//    implementation 'com.github.kittinunf.fuel:fuel-android:1.10.0'
+//
+    compile group: 'com.google.apis', name: 'google-api-services-language', version: 'v1-rev388-1.22.0' exclude module: 'httpclient'
+    compile group: 'com.google.api-client', name: 'google-api-client-android', version: '1.22.0' exclude module: 'httpclient'
+
+    compile 'com.jakewharton:butterknife:8.7.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.7.0'
+    //  compile 'com.android.support:cardview-v7:25.4.0-beta1'
+    //compile 'com.android.support:recyclerview-v7:25.4.0-beta1'
+
+    //androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    //androidTestImplementation 'com.android.support.test:runner:1.0.1'
+}
+apply plugin: 'com.google.gms.google-services'

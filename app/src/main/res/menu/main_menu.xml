@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="View Profile" app:showAsAction="never"
+        android:id="@+id/profile"/>
+
+
+    <item android:title="Post Result" app:showAsAction="never"
+        android:id="@+id/postresult"/>
+
+    <item android:title="View Feedback" app:showAsAction="never"
+        android:id="@+id/m_feedback"/>
+
+    <item android:title="View Resume" app:showAsAction="never"
+        android:id="@+id/m_ViewResume"/>
+
+
+
+    <item android:title="Sign Out" app:showAsAction="never"
+        android:id="@+id/menu_sign_out"/>
+
+
+</menu>

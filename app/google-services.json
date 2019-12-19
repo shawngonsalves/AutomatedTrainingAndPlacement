@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "189995193888",
+    "firebase_url": "https://be-project-a839d.firebaseio.com",
+    "project_id": "be-project-a839d",
+    "storage_bucket": "be-project-a839d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189995193888:android:2b4276dfcfbbbbd9",
+        "android_client_info": {
+          "package_name": "com.example.chaitanya.mychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189995193888-d3jah1u4hin22nb6a4f49sicdb2igoq4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chaitanya.mychat",
+            "certificate_hash": "0aef1f821fe8d1e3d42381ca951dd4527acf2150"
+          }
+        },
+        {
+          "client_id": "189995193888-jsq05da9nc93tdk3nuff6n4f2m2l90bc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCjABRbTv6RILbxLFGbxqKmG0Kw2M4h-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "189995193888-jsq05da9nc93tdk3nuff6n4f2m2l90bc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

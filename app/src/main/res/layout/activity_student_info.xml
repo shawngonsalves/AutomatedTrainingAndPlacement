@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chaitanya.mychat.Admin_info">
+
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/admin"
+        android:id="@+id/img1"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name : Kewal Shah"
+        android:id="@+id/tv1"
+        android:layout_below="@id/img1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email: Kewal@gmail.com"
+        android:id="@+id/tv2"
+        android:layout_below="@id/tv1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact No.: +919987867656"
+        android:id="@+id/tv3"
+        android:layout_below="@id/tv2"/>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
