@@ -26,13 +26,14 @@ Description: The below list describes the functional requirements of different m
 • Logout: After the session is over, the user will log out.
 • Technical Issues: The server is required to always be in a running state and multiple users shall be able to use the system from anywhere, anytime. The system should be tested regularly and minor bug fixes shall be done time to time.
 18
-# 3.2. NON-FUNCTIONAL REQUIREMENTS
+
 Other Functional Requirement: Below lists shows the functional requirements other than the above specified.
 • Make necessary changes in the resume and validate it.
 • Authentication of users
 • Verification of aggregate marks
 • Filtering comments and reviews
 • Legal or Regulatory Requirement
+
 # 3.2 Non-Functional Requirements
 Performance Requirements:
 • Uninterrupted connections i.e. it should be in a operable state at all times after installation. Interface should be interactive and easy to operate and the server should be with quick response time.
