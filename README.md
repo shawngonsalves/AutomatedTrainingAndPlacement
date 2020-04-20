@@ -13,3 +13,51 @@ The above mentioned problems can be solved using a web based android application
 This system is mainly designed to improve accessibility and simplicity of the training and placement process. Automated Training and Placement System consists of modules like Student, Administrator (TPO/ TnP Staff) and Company. This system will be used by students to download resume templates and upload their details. Administrator of the system will upload questions based on different categories and the student can choose which test they want to take. The proposed sys-tem can be used to conduct aptitude tests and store the result which is generated, in an organized manner. The system will also provide a forum for the company to post their feedback about the students appearing for interview. The system will analyze this feedback using natural language processing and sentiment analysis and determine fields of improvement for the students. It will provide the facility of maintaining the details of the students in a structured manner
 # Scope of the Project
 The scope of our system is widely reached as there are many features which can be added in near future to make the application more interactive, convenient and user friendly. Resume templates can be used to upload student’s details in a structured manner so that it can be easily extracted whenever necessary. The admin can conduct regular aptitude tests based on company requirements to prepare the students for different rounds of interviews. The test questions can be modified as per requirements by the admin of the system. Feedback from students who are placed in a company can be collected describing their experiences in personal interviews. Students appearing for the interview in the future can refer to them to prepare better and increase their chances of doing well in the interview. Companies can post reviews and comments about the campus and the students. These reviews can be analyzed using natural language processing and sentiment analysis to determine fields of improvement for students. Sentiment Analysis (sometimes known as opinion mining or emotion AI) refers to the use of natural language processing, text analysis, computational linguistics, and biometrics to systematically identify, extract, quantify, and study affective states
+
+# System Analysis
+# 3.1 Functional Requirements
+This section provides requirement overview of the system/application. Various functional modules that can be implemented by the system will be –
+Description: The below list describes the functional requirements of different modules of the application.
+• Registration: Student users must register into the system using their ERP based credentials and personal information. Companies can also access information from the system by registering before the campus drive.
+• Login: Admin, students and company representatives can login into the system by entering proper credentials.
+• Upload resume: The system will allow students to download sample resume templates, fill them and submit them to the system admin who will then validate it.
+• Aptitude tests: Administrator will be able to design various sets of question and the students can select test categories and take these tests. Results will be recorded and displayed in the system.
+• Comments and Reviews: Students may share their experiences in interviews and the company can also post comments about the performance of students. These comments and reviews will be analyzed and different results will be generate that will help the students to improve their performance in interviews and maximize their chance of getting recruited.
+• Logout: After the session is over, the user will log out.
+• Technical Issues: The server is required to always be in a running state and multiple users shall be able to use the system from anywhere, anytime. The system should be tested regularly and minor bug fixes shall be done time to time.
+18
+# 3.2. NON-FUNCTIONAL REQUIREMENTS
+Other Functional Requirement: Below lists shows the functional requirements other than the above specified.
+• Make necessary changes in the resume and validate it.
+• Authentication of users
+• Verification of aggregate marks
+• Filtering comments and reviews
+• Legal or Regulatory Requirement
+# 3.2 Non-Functional Requirements
+Performance Requirements:
+• Uninterrupted connections i.e. it should be in a operable state at all times after installation. Interface should be interactive and easy to operate and the server should be with quick response time.
+• Complete compatibility on any smartphone device.
+Safety and Security Requirements:
+• Account information must be secure.
+• System shall maintain its database with secure login and password.
+• The database shall use security service enterprise authentication for connections to the database. All users shall have their own user name and password that is the same across all databases.
+• The system should not leave any cookies on the user’s phone containing the user’s password. The system’s back-end servers shall only be accessible to authenticated administrators.
+
+Software Quality Attributes:
+• Robustness: The system is robust and secure. The system will always validate the account and the details before performing any steps.
+• Reliability: The reliability of the overall program depends on the reliability of the separate components.
+• Availability: The system should be available at all times, meaning the user can access it , only restricted by the down time of the server on which the system runs.
+• Usability: Any person with basic smartphone knowledge should be able to use the system with ease.
+• Correctness: The system should always validate the required account and the transactions it performs, so there is no chance of any flaws.
+• Security: The system should not leave any cookies on the user’s phone containing the user’s password.
+
+# 3.3 Specific Requirements
+# 3.3.1 Hardware Requirements
+The System will run over the internet, so the smartphone must have data pack activated from any service provider.
+• Memory of 4 GB RAM or more. Intel i3 Processor or higher.
+• 8 GB (or more) available hard disk space.
+# 3.3.2 Software Requirements
+The system works on server so it requires any scripting language like PHP etc. The system also requires database technologies like Firebase,SQLite etc. to store user data.
+• Android Development Tool 1.6.1. Android SDK tools 22.0.5.
+• Java SE JDK v6.0.
+• Windows 7 Operating System or higher. Database technologies: SQLite, Firebase.
